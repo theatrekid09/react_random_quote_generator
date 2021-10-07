@@ -1,7 +1,9 @@
+import './Button.css'
+
 const Button = ({handleClick, text}) => {
     return(
         <div>
-            <button onClick={handleClick}>{text}</button>
+            <button className="btn" onClick={handleClick}>{text}</button>
         </div>
     )
 }
